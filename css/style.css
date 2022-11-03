@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --primary-color: #00369a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  background-color: #fff;
+  margin: 0 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+main {
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 0.5rem 0;
+  font-size: 2.8rem;
+  color: #222;
+  text-align: center;
+}
+
+input[type='text'] {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: 2px solid #eee;
+  border-radius: 50px;
+  outline: none;
+  width: 90%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type='text']:focus {
+  outline: 2px solid #ccc;
+}
+
+#search-result {
+  margin-top: 1.6rem;
+}
+
+#search-result article {
+  padding: 0;
+  margin: 2rem 0;
+}
+
+#search-result article h2 {
+  font-size: 1.8rem;
+}
+
+.highlight {
+  background-color: #fff6db;
+  font-weight: bold;
+  padding: 0.5rem;
+}
